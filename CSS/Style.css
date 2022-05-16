@@ -1,0 +1,98 @@
+/*
+    # = id
+    . = class
+    Tutorial : https://www.w3schools.com/css/default.asp
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background: #2C2D2A;
+    margin : 0em;
+    font-family : Ubuntu;
+}
+#Header {
+    background: #4E4E4E;
+    padding: 0.5em;
+}
+#MobileMenuIcon {
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+
+}
+.MenuLinks {
+    display : block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-top : 0.5em;
+    margin-right: 1em;
+    
+    cursor: pointer;
+    /*font-family: 'Bebas Neue', cursive;*/
+}
+    .MenuLinks:hover {
+        font-weight : bold;
+    }
+#MenuLinksContainer {
+    display: none;
+    position: fixed;
+    text-align : right;
+    margin-top : 2em;
+    
+    z-index: 100;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #4E4E4E;
+}
+
+#MainSection{
+    text-align:center;
+}
+h1 {
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFFFF;
+}
+p {
+    color: #FFFFFF;
+}
+
+.AllProjectsBtn {
+    display : block;
+    width: fit-content;
+    margin:auto;
+    text-align : center;
+    
+    
+    background-color: #FA5C5C;
+    padding: 0.3em;
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFFFF;
+    font-size: 1.8em;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0.6em;
+}
+.AllProjectsBtn:hover{
+    transform:scale(1.2);
+}
+.AllProjectsImg
+{
+    margin-right : 0.2em;
+}
+
+
+#ControllerImg {
+    width: 20em;
+    height: auto;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
