@@ -47,7 +47,7 @@ ul {
     z-index: 100;
     top: 0;
     right: 0;
-    width: 50%;
+    width: 40%;
     height: 100%;
     background-color: #4E4E4E;
 }
@@ -118,6 +118,10 @@ p {
     border-radius: 0.35em;
 }
 
+#SocialSection {
+    text-align: center;
+}
+
 #GithubLink{
     background-color : #0A0A0A;
 }
@@ -143,6 +147,7 @@ p {
 /*Media Queries*/
 @media only screen and (min-width: 768px) 
 {
+    /*For The Menu*/
     #Navbar {
         display: inline;
         background: none;
@@ -162,5 +167,17 @@ p {
     }
     .MenuLinks {
         display: inline;
+    }
+
+    /*For The Home Page*/
+    #MainSection {
+        width: 100%;
+        height: auto;
+        margin-left: 2em;
+        text-align: left;
+    }
+    #MainSection h1 {
+        margin-block-start : 3em;
+        margin-block-end : 0em;
     }
 }
