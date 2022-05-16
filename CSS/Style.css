@@ -10,14 +10,16 @@ body {
     background: #2C2D2A;
     margin : 0em;
     font-family : Ubuntu;
+    overflow : hidden;
 }
 #Header {
     background: #4E4E4E;
     padding: 0.5em;
+    width : 100vw;
 }
 #MobileMenuIcon {
     display: block;
-    margin-left: auto;
+    margin-right: auto;
     color : white;
     cursor: pointer;
 }
@@ -31,7 +33,7 @@ ul {
     text-decoration: none;
     font-size: 1.5em;
     margin-top : 0.5em;
-    margin-right: 1em;
+    margin-left: 1em;
     
     cursor: pointer;
     /*font-family: 'Bebas Neue', cursive;*/
@@ -42,11 +44,11 @@ ul {
 #Navbar {
     display : none;
     position: fixed;
-    text-align: right;
+    text-align: left;
     margin-top: 2em;
     z-index: 100;
     top: 0;
-    right: 0;
+    left: 0;
     width: 40%;
     height: 100%;
     background-color: #4E4E4E;
@@ -97,6 +99,9 @@ p {
 }
 
 /*Social Page CSS*/
+#SocialSection {
+    text-align: center;
+}
 
 .SocialLinks {
     display: block;
@@ -117,10 +122,9 @@ p {
     cursor: pointer;
     border-radius: 0.35em;
 }
-
-#SocialSection {
-    text-align: center;
-}
+    .SocialLinks:hover {
+        transform: scale(1.2);
+    }
 
 #GithubLink{
     background-color : #0A0A0A;
@@ -179,5 +183,8 @@ p {
     #MainSection h1 {
         margin-block-start : 3em;
         margin-block-end : 0em;
+    }
+    .AllProjectsBtn{
+        margin:0em;
     }
 }
