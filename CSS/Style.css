@@ -10,6 +10,7 @@ body {
     background: #2C2D2A;
     margin : 0em;
     font-family : Ubuntu;
+    max-width : 100%;
     overflow : hidden;
 }
 #Header {
@@ -148,6 +149,15 @@ p {
     margin-right: 0.2em;
 }
 
+/*About Page CSS*/
+#AboutSection {
+    text-align: center;
+    margin-right : 0.2em;
+}
+    #AboutSection h1 {
+        letter-spacing: 0.03em;
+    }
+
 /*Media Queries*/
 @media only screen and (min-width: 768px) 
 {
@@ -187,4 +197,16 @@ p {
     .AllProjectsBtn{
         margin:0em;
     }
+    
+    /*For About Page*/
+    #AboutSection {
+        height: auto;
+        margin-left: 2em;
+        margin-right:2em;
+        text-align: left;
+    }
+        #AboutSection h1 {
+            margin-block-start: 0.7em;
+            margin-block-end: 0.4em;
+        }
 }
